@@ -57,7 +57,7 @@ const DriverProfile = ({ data }) => {
   ];
 
   return (
-    <TableContainer className=":w-[50%]">
+    <TableContainer className=":w-[50%] shadow-neutral-400 shadow-md">
       <Table>
         <TableBody>
           {data['Avatar'] && (
@@ -116,7 +116,7 @@ const DriverBehaviorTable = ({ data }) => {
   ];
 
   return (
-    <TableContainer className="w-[50%]">
+    <TableContainer className="w-[50%] shadow-neutral-400 shadow-md">
       <Table>
         <TableBody>
           <TableRow key="driverBehavior">
@@ -165,7 +165,7 @@ const DriverBehaviorTable = ({ data }) => {
 
 const RecentTripsTable = ({ data }) => {
   return (
-    <TableContainer className="w-[50%]">
+    <TableContainer className="w-[50%] shadow-neutral-400 shadow-md">
       <Table>
         <TableBody>
           <TableRow key="recentTrips">
@@ -204,7 +204,7 @@ const RecentTripsTable = ({ data }) => {
 
 const UpcomingTripsTable = ({ upcomingTripsData }) => {
   return (
-    <TableContainer className="w-[50%]">
+    <TableContainer className="w-[50%] shadow-neutral-400 shadow-md">
       <Table>
         <TableBody>
           <TableRow key="upcomingTrip">
